@@ -10,13 +10,13 @@
 }
 
 .details-container h1 {
-  font-size: 32px;
+  font-size: 2rem;
   margin-bottom: 24px;
   font-family: 'DM Serif Text', serif;
 }
 
 .details-image {
-  max-width: 100%;
+  max-width: 30%;
   height: auto;
   border-radius: 12px;
   margin-bottom: 24px;

@@ -6,6 +6,10 @@
   min-height: 100vh;
 }
 
+.contact-page h1{
+  font-family: 'DM Serif Text', serif;
+}
+
 .contact-form {
   max-width: 500px;
   margin: 30px auto;
@@ -31,9 +35,10 @@
 
 .contact-form button {
   padding: 12px;
-  background-color: #c750c7;
+  background-color: #ec4899;
   border: none;
   border-radius: 20px;
+  width: auto;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -41,5 +46,5 @@
 }
 
 .contact-form button:hover {
-  background-color: #a03ca0;
+  background-color: #db2777;
 }

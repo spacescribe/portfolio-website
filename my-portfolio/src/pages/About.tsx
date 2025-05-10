@@ -1,7 +1,14 @@
-import React from 'react';
+// import React from 'react';
+import { useNavigate } from 'react-router-dom';
 import '../styles/About.css';
 
 const About = () => {
+  const navigate = useNavigate();
+
+  const handleViewProjectsClick = () => {
+    navigate('/projects');  
+  };
+
   return (
     <div className="about-container">
       <div className="about-card">
@@ -14,8 +21,10 @@ const About = () => {
           This portfolio showcases some of the projects I’ve worked on. Each one reflects my enthusiasm
           for learning and continuous improvement.
         </p>
-        <div className="resume-button">
-          <button className="resume-btn">Resume</button>
+        <div className="project-button">
+          <button className="project-btn" onClick={handleViewProjectsClick}>
+            View Projects
+          </button>
         </div>
       </div>
     </div>

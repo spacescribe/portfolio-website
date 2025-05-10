@@ -85,9 +85,11 @@ const Home = () => {
       <div className="quote">
         <p>Think Deep. Build Forward</p>
       </div>
-      <div className="resume-button">
+     <div className="resume-button">
+      <a href="/resume.pdf" target="_blank" rel="noopener noreferrer">
         <button className="resume-btn">Resume</button>
-      </div>
+      </a>
+    </div>
     </div>
   );
 };
