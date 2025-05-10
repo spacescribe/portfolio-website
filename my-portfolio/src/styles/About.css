@@ -1,0 +1,56 @@
+.about-container {
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  min-height: 50vh;
+  /* background: radial-gradient(circle at top, #1a1a2e, #0f0f1a); */
+  color: #ffffff;
+  padding: 20px;
+}
+
+.about-card {
+  background-color: rgba(61, 54, 92, 0.5);
+  padding: 40px;
+  border-radius: 15px;
+  /* align-items: center; */
+  /* justify-content: center; */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.4);
+  max-width: 700px;
+  text-align: center;
+}
+
+.about-card h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+  color: #ffffff;
+}
+
+.about-card p {
+  font-size: 1.1em;
+  line-height: 1.6;
+  color: #dddddd;
+}
+
+.resume-button {
+    grid-area: resume-button;
+    padding-top: 30px;
+    display: flex;
+    justify-content: flex-start;  
+    /* align-items: center; */
+    justify-self: center;
+  }
+  
+  .resume-btn {
+    background-color: #ec4899;
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .resume-btn:hover {
+    background-color: #db2777;
+  }

@@ -5,7 +5,8 @@ import '../styles/ProjectCard.css';
 type ProjectCardProps = {
   title: string;
   description: string;
-  image: string;
+//   image: ImageBitmap;
+image: string,
   id: string; // unique identifier for routing
 };
 
