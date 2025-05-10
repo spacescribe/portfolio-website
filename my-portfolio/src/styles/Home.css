@@ -38,20 +38,22 @@
     text-align: left;
     align-self: center;
     margin-left: 90px;
+    font-family: 'DM Serif Text', serif;
   }
   
   .hero-right h2 {
-    font-size: 1.75rem;
+    font-size: 1.90rem;
     margin-bottom: 0.5rem;
     text-align: left;
     color: #f472b6;
+    font-family: 'DM Serif Text', serif;
   }
 
   .txt-rotate > .wrap {
     border-right: 0.08em solid #f472b6;
     color: #f472b6;
     text-align: left;
-    font-size: 2.5rem;
+    font-size: 2.7rem;
     margin-bottom: 0.5rem;
   }
   

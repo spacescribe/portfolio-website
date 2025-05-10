@@ -1,6 +1,6 @@
 // import React from 'react';
 import { NavLink } from 'react-router';  
-import './Footer.css';
+import '../styles/Footer.css';
 
 const Footer = () => {
   return (
@@ -10,13 +10,13 @@ const Footer = () => {
       </div>
       <nav className="social-nav">
         <NavLink 
-          to="https://www.linkedin.com/in/nandini-choukimath" 
+          to="https://www.linkedin.com/in/nandini-choukimath/" 
           target="_blank" 
           className="social-link">
           LinkedIn
         </NavLink>
         <NavLink 
-          to="https://github.com/nandinich" 
+          to="https://github.com/spacescribe" 
           target="_blank" 
           className="social-link">
           GitHub

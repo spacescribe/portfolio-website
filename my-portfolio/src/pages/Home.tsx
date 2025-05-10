@@ -1,7 +1,7 @@
 import React, { useEffect } from 'react';
 import '../styles/Home.css';
 
-const Home: React.FC = () => {
+const Home = () => {
   useEffect(() => {
     class TxtRotate {
       toRotate: string[];

@@ -1,0 +1,37 @@
+.details-container {
+  max-width: 800px;
+  margin: 60px auto;
+  background-color: #2e294e;
+  border-radius: 12px;
+  padding: 40px;
+  color: #ffffff;
+  text-align: center;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+}
+
+.details-container h1 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  font-family: 'DM Serif Text', serif;
+}
+
+.details-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 12px;
+  margin-bottom: 24px;
+}
+
+.details-description {
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: 'DM Serif Text', serif;
+  color: #ddd;
+}
+
+.not-found {
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
+  font-size: 24px;
+}
