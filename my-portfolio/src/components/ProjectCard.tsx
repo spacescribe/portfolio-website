@@ -1,16 +1,20 @@
-import React from 'react';
-import { useNavigate } from 'react-router';
-import '../styles/ProjectCard.css';
+import React from "react";
+import { useNavigate } from "react-router";
+import "../styles/ProjectCard.css";
 
 type ProjectCardProps = {
   title: string;
   description: string;
-//   image: ImageBitmap;
-image: string,
-  id: string; // unique identifier for routing
+  image: string;
+  id: string;
 };
 
-const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, id }) => {
+const ProjectCard: React.FC<ProjectCardProps> = ({
+  title,
+  description,
+  image,
+  id,
+}) => {
   const navigate = useNavigate();
 
   const handleClick = () => {
@@ -18,7 +22,11 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ title, description, image, id
   };
 
   return (
-    <div className="project-card" onClick={handleClick} style={{ cursor: 'pointer' }}>
+    <div
+      className="project-card"
+      onClick={handleClick}
+      style={{ cursor: "pointer" }}
+    >
       <img src={image} alt={title} className="project-image" />
       <h3 className="project-title">{title}</h3>
       <p className="project-description">{description}</p>

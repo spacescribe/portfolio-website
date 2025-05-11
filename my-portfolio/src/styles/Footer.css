@@ -1,23 +1,30 @@
 .footer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
+  /* background-color: #111; */
   color: white;
-  padding: 2rem;
-  position: fixed;  
-  bottom: 0;  
-  left: 0;  
-  width: 100%;  
+  padding: 1rem 2rem;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 .copyright {
+  text-align: center;
+  flex: 1;
   font-size: 1rem;
-  margin-bottom: 1rem;
 }
 
 .social-nav {
   display: flex;
-  gap: 1.5rem;
+  gap: 1.2rem;
 }
 
 .social-link {

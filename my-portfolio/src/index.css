@@ -6,7 +6,9 @@ body {
   background-position: center;
   background-repeat: no-repeat;
   color: white;
-  height: 100vh;
+  /* height: 100vh; */
+  min-height: 100vh; /* let it grow beyond the initial viewport */
+  height: auto;
 }
 
 a {

@@ -93,4 +93,45 @@
   .resume-btn:hover {
     background-color: #db2777;
   }
-  
+
+  @media screen and (max-width: 768px) {
+  .home {
+    grid-template-areas:
+      "intro"
+      "hero-right"
+      "quote"
+      "info"
+      "resume-button";
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+    height: auto;
+    width: 90vw;
+    padding: 1.5rem;
+    gap: 1.2rem;
+  }
+
+  .hero-right,
+  .quote {
+    margin-left: 0;
+    text-align: center;
+  }
+
+  .quote {
+    margin-top: 0; /* REMOVE negative margin */
+    align-items: center;
+    justify-content: center;
+  }
+
+  .intro,
+  .info {
+    text-align: center;
+  }
+
+  .resume-button {
+    justify-content: center;
+  }
+
+  .txt-rotate > .wrap {
+    text-align: center;
+  }
+}

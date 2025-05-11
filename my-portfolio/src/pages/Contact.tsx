@@ -1,11 +1,11 @@
-import React from 'react';
-import '../styles/Contact.css';
+// import React from "react";
+import "../styles/Contact.css";
 
 const Contact = () => {
   return (
     <div className="contact-page">
       <h1>Contact Me</h1>
-      <form 
+      <form
         className="contact-form"
         action="https://formsubmit.co/2fc6565f0f97ef32212d9e3a98db50e5"
         method="POST"
