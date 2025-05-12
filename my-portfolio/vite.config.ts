@@ -5,7 +5,7 @@ import react from '@vitejs/plugin-react'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(),],
-  base: '/portfolio-website/', // e.g. '/portfolio/'
+  base: '/portfo/', // e.g. '/portfolio/'
   build: {
     outDir: 'docs', // 👈 this is the key change
   },
